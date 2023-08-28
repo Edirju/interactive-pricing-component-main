@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+  
+</head>
+<body>
+
+  <div class="title">
+  <h1>Simple, traffic-based pricing</h1>
+  <p>Sign-up for our 30-day trial. No credit card required. </p>
+</div>
+<div class="container">
+  <div class="wrapper">
+    <div class="top-content">
+      <div class="packages">
+        <div class="pv">
+          <p><span id="pageView">100k </span> Pageviews</p>
+        </div>
+        <div class="cst">
+          <p>$<span id="cost">16</span>.00</p>
+          <p class="time">/month</p>
+        </div>
+      </div>
+      <div class="range-slider">
+        <input type="range" id="price-slider" class="range" min="0" max="4" value="2">
+      </div>
+      <div class="cst cst2">
+        <p>$<span id="cost2">16</span>.00</p>
+        <p class="time">/month</p>
+      </div>
+      <div class="billing">
+        <p>Monthly Billing</p>
+        <label class="switch">
+          <input type="checkbox" name="billing" id="billing">
+          <span class="toggle-slider"></span>
+        </label>
+        <p>Yearly Billing</p>
+        <p class="discount">25% discount</p>
+        <p class="discount discount2">25%</p>
+      </div>
+    </div>
+    <hr>
+    <div class="footer">
+      <ul>
+        <li><img src="https://digitshack.com/codepen/mentor5/icon-check.svg" alt="">Unlimited websites</li>
+        <li><img src="https://digitshack.com/codepen/mentor5/icon-check.svg" alt="">100% data ownership</li>
+        <li><img src="https://digitshack.com/codepen/mentor5/icon-check.svg" alt="">Email reports</li>
+      </ul>
+      <a href="#">Start my trial</a>
+    </div>
+  </div>
+</div>
+<!-- <a href="https://youtu.be/7Aaq3UZlzwg" target="_blank" class="link">Watch on youtube <i class="fab fa-youtube"></i></a> -->
+  <!-- <div class="title">
+    <h1>Simple, traffic-based pricing</h1>
+    <p>Sign-up for our 30-day trial. No credit card required. </p>
+  </div>
+  
+  <div class="container">
+    <div class="wrapper">
+      <div class="top-content">
+        <div class="packages">
+          <div class="pv">
+            <p><span id="pageView">100k </span>Pageviews</p>
+          </div>
+          <div class="cst">
+            <p>$<span id="cost">16</span>.00</p>
+            <p class="time">/month</p>
+          </div>
+        </div>
+        <div class="range-slider">
+          <input type="range" name="range" id="price-slider" class="range" min="0" max="4" value="2">
+        </div>
+        <div class="billing">
+          <p>Monthly Billing</p>
+          <label class="switch">
+            <input type="checkbox" name="billing" id="billing">
+            <span class="toggle-slider"></span>
+          </label>
+          <p>Yearly Billing</p>
+          <p class="discount">25% discount</p>
+        </div>
+      </div>
+      <hr>
+      <div class="footer">
+        <ul>
+          <li><img src="./images/icon-check.svg" alt="icon-check">Unlimited websites</li>
+          <li><img src="./images/icon-check.svg" alt="icon-check">100% data ownership</li>
+          <li><img src="./images/icon-check.svg" alt="icon-check">Email reports</li>
+        </ul>
+        <a href="#">Start my trial</a>
+      </div>
+    </div>
+  </div> -->
+
+  <script src="main.js"></script>
+</body>
+</html>
